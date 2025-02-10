@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+    background-image: url(/conhecimento_web_v2/imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+.hero-content {
+    margin: 80px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero-content p {
+    background-color: rgba(0,0,0, 0.6);
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+.hero nav ul {
+    margin: 20px 50px 0 0;
+}
+.hero nav li {
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 16px;
+    padding: 10px;
+}
+.hero nav {
+    text-align: right;
+    margin: 10px;
+    margin-top: 20px;
+}
+.hero a {
+    text-decoration: none;
+    text-transform: uppercase;
+    /* Espaçamento das letras */
+    letter-spacing: 2px;
+}
+.hero a:hover {
+    text-decoration-line: underline;
+}
+.hero li:hover{
+    background-color: rgba(255, 0, 0, 0.500);
+}
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+section {
+    padding: 11px;
+}
+article {
+    background-color: white;
+    padding: 11px;
+    margin-bottom: 11px;
+}
+article h2 {
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 3px;
+    margin-top: 0;
+}
+.btn {
+    background-color: #cdc7c3;
+    display: block;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: auto;
+    /* Solução para alocar um bloco para a esquerda usando o conteudo de referência */
+    width: fit-content;
+}
+.rodape {
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 18px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
