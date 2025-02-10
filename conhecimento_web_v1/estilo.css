@@ -1,0 +1,65 @@
+header {
+    background-image: url(/conhecimento_web/imagens/digital.png);
+    background-attachment: fixed;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: rgb(56, 65, 72);
+    background-color: antiquewhite;
+    padding: 2px;
+}
+h5 {
+    text-align: center;
+    color: rgb(56, 65, 72);
+    background-color: rgba(251, 231, 204, 0.817);
+    padding: 2px;
+    text-decoration-line: underline;
+}
+a {
+    background-color: rgb(194, 175, 229);
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+a:hover {
+    background-color: rgba(251, 231, 204, 0.817);
+    color: rgb(56, 65, 72);
+}
+nav {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.html {
+    background-color: antiquewhite;
+    margin: auto;
+}
+h3 {
+    padding: 5px;
+    background-color: rgb(184, 208, 228);
+    background-origin: padding-box;
+}
+p {
+    padding: 5px;
+}
+.suba {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+body {
+    background-color: azure;
+}
+.rodap {
+    background-color: rgb(107, 101, 101);
+    margin-bottom: 0;
+}
+h6 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 5px;
+}
