@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+
+    /* retirar a barra de rolagem */
+    margin-top: 0;
+
+    display: flex;
+    /* alinhar conteiner */
+    justify-content: center;
+    /* alinhar os items */
+    align-items: center;
+    /* flex em coluna */
+    flex-direction: column;
+}
+.main-title {
+    font-size: 20px;
+}
+.list-wrapper {
+    background-color: white;
+    border-radius: 5px;
+    /* largura */
+    width: 90%;
+    /* máximo de largura */
+    max-width: 500px;
+    /* altura */
+    height: 400px;
+    /* barra de rolagem no eixo y */
+    overflow-y: auto;
+    /* ao redor, manipulação da sombra */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .4);
+}
+.list {
+    /* remover o ponto da lista */
+    list-style-type: none;
+    /* retirar o padding do ponto removido */
+    padding: 0;
+    /* zerando a margim padrão da ul */
+    margin: 0;
+}
+.list-item {
+    /* definindo como flex */
+    display: flex;
+    /* acrescentando uma borda */
+    border-bottom: 2px solid #eee;
+    /* espaçamento interno */
+    padding: 16px;
+}
+.list-item__imagem img {
+    /* definindo tamanho da img */
+    width: 80px;
+    /* utilizando metade do que foi defido com porcetagem */
+    border-radius: 50%;
+}
+.list-item__content {
+    /* definindo tamanho do padding */
+    padding: 0 15px;
+    /* utilizando prop. flex grow aproveitar espaço que sobra*/
+    flex-grow: 1;
+}
+.list-item__name {
+    font-size: 16px;
+    color: cadetblue ;
+    margin: 0;
+}
+.list-item__email {
+    color: #aaa;
+    margin: 5px 0 0;
+}
+.list-item:hover {
+    /* ao passar o mouse */
+    background-color: #e8e8e8;
+}
+.list-item__actions {
+    display: flex;
+    /* prop. para afastar um do outro */
+    gap: 16px;
+    align-items: center;
+    /* transparência nos icones */
+    opacity: 0;
+}
+/* quando passar o mouse em cima da list aparecer os ícones alterando a opacidade */
+.list-item:hover .list-item__actions {
+    opacity: 0.8;
+}
